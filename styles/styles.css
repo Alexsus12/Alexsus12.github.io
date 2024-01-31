@@ -1,0 +1,89 @@
+html{
+    background-color: bisque;
+    font-weight: 300;
+    font-style: normal;
+    font-family: "Roboto", sans-serif;
+}
+
+img{
+    display: block;
+    margin: 0 auto;
+    height: 500px;
+}
+
+ol,li,ul{
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    margin-left: 35px;
+    background: rgb(73, 44, 40);
+}
+
+a{
+    color: white;
+}
+
+h1{
+    color: antiquewhite;
+    font-size: 50px;
+    text-align: center;
+    margin: 0;
+    padding: 20px 0;
+    text-shadow: 3px 3px 1px rgb(0, 0, 0);
+}
+
+body{
+    color:rgb(255, 255, 255);
+    width: 1200px;
+    margin: 0 auto;
+    background-color: #0e9e62;
+    padding: 0 20px 20px 20px;
+    border: 5px solid rgb(255, 255, 255);
+}
+
+p, li{
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
+}
+
+/*Tablas*/  
+table{
+    border-color: aliceblue;
+    border-collapse: collapse;
+    width: 50%;
+}
+
+th, td{
+    color:rgb(255, 255, 255);
+    background-color: rgb(73, 44, 40);
+    text-align: center;
+    padding: 15px;
+}
+/*Tablas*/
+
+/*Botón*/
+.button{
+    background-color: #04AA6D; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button3{
+    background-color: rgb(238, 89, 89); 
+    color: white; 
+    border: 2px solid #f44336;
+}
+  
+.button3:hover{
+    background-color: #f44336;
+    color: white;
+}
+/*Botón*/
